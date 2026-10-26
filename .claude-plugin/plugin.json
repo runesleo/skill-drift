@@ -6,5 +6,6 @@
   "author": {
     "name": "LeoLabs",
     "url": "https://leolabs.me"
-  }
+  },
+  "icon": "./.claude-plugin/icon.png"
 }
