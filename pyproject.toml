@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skill-drift"
+version = "0.1.0"
+description = "Find content drift between Claude skills and Cursor rules, then merge them onto one symlink."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "LeoLabs"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://leolabs.me"
+
+[project.scripts]
+skill-drift = "skill_drift.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,10 @@
+---
+name: empty-shell
+description: Full procedure for the demo.
+alwaysApply: false
+---
+
+# Empty shell
+
+The short copy is a placeholder.
+Keep this procedure: run the demo, then read the summary.

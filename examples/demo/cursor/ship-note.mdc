@@ -1,0 +1,10 @@
+---
+description: Demo rule whose wording forks across tools.
+alwaysApply: false
+---
+
+# Ship note
+
+After the demo change, write what changed.
+Include the test command in the note.
+Noted on 2026-01-02.

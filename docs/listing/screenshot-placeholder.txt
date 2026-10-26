@@ -1,0 +1,7 @@
+Screenshot slot.
+
+Before a marketplace submission, replace this file with a terminal capture of:
+
+    sh examples/demo/run-demo.sh
+
+The capture should show the check summary, the dry-run merge, and the second check. Crop out any home-directory path.

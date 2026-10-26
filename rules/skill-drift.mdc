@@ -1,0 +1,8 @@
+---
+description: When skills or Cursor rules disagree, compare the text with skill-drift and keep one symlink source.
+alwaysApply: false
+---
+
+When a Claude skill and a Cursor rule share a name, compare their text with `skill-drift check`. Ignore file modification time.
+
+`skill-drift merge` is a dry-run until the user passes `--apply`. When the suggested source is `undecided`, the user may pass `--source` explicitly and then apply. Do not choose that source yourself.
