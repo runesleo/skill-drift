@@ -27,6 +27,16 @@ HASH_DRIFT = ROOT / "examples" / "agents-hash-drift"
 SUBSET = ROOT / "examples" / "subset"
 
 
+def _ensure_demo_link() -> None:
+    """The demo's broken link is not committed (the plugin directory refuses dangling links)."""
+    link = DEMO / "claude" / "missing-skill"
+    if not link.is_symlink():
+        link.symlink_to("../nowhere/missing-skill")
+
+
+_ensure_demo_link()
+
+
 def _roots(base: Path) -> dict[str, Path]:
     return {"claude": base / "claude", "cursor": base / "cursor", "agents": base / "agents"}
 

@@ -8,3 +8,6 @@ build/
 .worktrees/
 .env
 *.session
+
+# Demo broken link, created at run time (the plugin directory refuses dangling links)
+examples/demo/claude/missing-skill

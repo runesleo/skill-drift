@@ -1,7 +1,7 @@
 {
   "name": "skill-drift",
   "displayName": "Skill Drift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find content drift between Claude skills and Cursor rules, then merge them onto one symlink.",
   "author": {
     "name": "LeoLabs",

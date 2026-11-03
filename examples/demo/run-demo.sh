@@ -8,6 +8,8 @@ trap 'rm -rf "$TMP"' EXIT
 mkdir -p "$TMP/demo"
 cp -R "$DEMO_DIR/." "$TMP/demo/"
 cd "$TMP/demo"
+# The broken link is made here, not committed: the plugin directory refuses dangling links.
+[ -L claude/missing-skill ] || ln -s ../nowhere/missing-skill claude/missing-skill
 export PYTHONPATH="$ROOT/src"
 export PYTHONDONTWRITEBYTECODE=1
 
